@@ -14,5 +14,5 @@ resource "aws_instance" "one" {
 }
 
 variable "instance_names" {
-  default = ["jenkins", "tomcat-1", "tomcat-2", "Monitoring server"]
+  default = ["jenkins", "AppServer-1", "AppServer-2", "Monitoring server"]
 }
